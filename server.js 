@@ -1,0 +1,12 @@
+javascript
+const express = require('express');
+const app = express();
+
+Define a route handler for the /users endpoint:
+javascript
+app.post('/users', (req, res) => {
+// Handle the POST request here
+// You can access the request body using req.body
+// Perform any required operations and send a response using res.send()
+});
+
